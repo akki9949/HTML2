@@ -1,0 +1,25 @@
+body
+{/*background:linear-gradient(to left, red,blue
+    );*/
+    background: radial-gradient(red,blue,red,blue,red,blue,red,blue);
+    
+    
+    height:100vh
+}
+button{
+    background-color:rgba(116, 111, 84, 0.9);
+    color:white
+}
+h1{
+    text-align:center;
+}
+.btn
+{
+    background-color:black;
+    color:white
+    
+}
+#four
+{
+    background-color:white;
+    color:black}

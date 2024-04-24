@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.banner{
+    width:100%;
+    padding:50px
+}
+
+.box {
+    height:auto;
+    width:50%;
+    border:1px soild black
+    margin:10px;
+    float:left
+
+}
+.box img{
+border-radius: 50%;
+
+}
+body{
+    background-color:aquamarine;
+}
+a{
+    text-decoration: none;
+}
