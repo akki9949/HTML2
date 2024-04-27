@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background-color:bisque
+    
+}
+.main{
+    height:50vh;
+    width:30vw;
+
+    
+    background-color:black;
+    display:flex;
+    justify-items: center;
+    align-content:center;
+    border: 1px solid red;
+    /* transition:all 2s ease-in; */
+    animation-name: img;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    padding:right;
+
+
+}
+
+.main:hover{
+    /* transform: scale(1.5px); */
+
+}    
+    
+    
+    
+
+.image{
+    height:50vh;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes img{
+0%{
+    position:absolute;
+    left:0px;
+    background-color: blue;
+
+}
+20%{
+    position:absolute;
+    right:0px;
+    background-color: brown;
+}
+40%{
+
+    position:absolute;
+    top:0px;
+    background-color: aqua;
+}
+
+
+60%{
+    position:absolute;
+    bottom:0px;
+    background-color: red;
+}
+
+
+
+
+
+}
