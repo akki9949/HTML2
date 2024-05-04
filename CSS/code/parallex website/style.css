@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Rancho", cursive;;
+    font-weight:400;
+    line-height:1.8em;
+    color:lawngreen;
+}
+.pimg1{
+    background-image:url(images/img.jpeg);
+    min-height: 400px;
+
+
+
+}
+.pimg2{background-image: url(images/img1.webp);
+    min-height:400px;
+
+}
+.pimg3{background-image: url(./images/img2.webp);
+    min-height:400px;
+
+
+}
+.pimg4{
+    background-image: url(images/img3.jpeg);
+    min-height: 400px;
+
+}
+.pimg5{
+  background-image: url(./images/img4.webp);
+    min-height: 400px}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 50px 80px;
+    text-align: center;
+  }
+  .first-one {
+    background-color:darkseagreen;
+    color:darkred;
+  }
+  .second-one {
+    background-color:forestgreen;
+    color:#ddd;
+  }
+  .third-one {
+    background-color: #28342c;
+    color: #ddd;
+  }
+  .forth-one {
+    background-color:darkolivegreen;
+    color: #ddd;
+  }
+  span{
+    color: aqua;
+    background-color: #313534;
+    padding: 10px;
+  }
